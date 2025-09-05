@@ -1,1 +1,14 @@
+{
+  "name": "edufin-ai-mentor",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd server && nodemon index.js",
+    "client": "cd client && npm start"
+  },
+  "dependencies": {
+    "concurrently": "^8.0.0"
+  }
+}
 
